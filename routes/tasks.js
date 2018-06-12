@@ -2,12 +2,10 @@ var express = require('express');
 var router = express.Router();
 var url = require('url');
 
-// Data story in memory making the app 
+// Data storage in memory making the app 
 // stateful. Use a db to store in the future
 var taskList = [{
     name: "code"
-}, {
-    name: "run"
 }];
 
 /* GET users listing. */
